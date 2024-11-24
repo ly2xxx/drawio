@@ -1,4 +1,21 @@
-https://github.com/kaminzo/c4-draw.io
+## Running Locally 💻
+Follow these steps to set up and run the service locally :
+
+Create a virtual environment :
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+```
+
+Install the required dependencies in the virtual environment :
+```bash
+pip install -r requirements.txt
+```
+
+Launch the chat service locally :
+```bash
+streamlit run drawio_editor.py
+```
 
 # c4-draw.io
 
@@ -47,3 +64,6 @@ If you like, save the file as .png (with embedded XML) for ease of viewing.
 ## Credits
 
 C4Model Author: Simon Brown - <https://c4model.com/> [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
+
+
+Inspired by: https://github.com/kaminzo/c4-draw.io 
