@@ -1,1 +1,5 @@
 streamlit==1.40.1
+# python-drawio==0.1.2
+# drawpyo==0.2.1
+drawioedit==0.3.6
+pypng==0.20220715.0
